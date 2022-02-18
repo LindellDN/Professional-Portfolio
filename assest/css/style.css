@@ -1,106 +1,39 @@
-
 .header {
-  position: relative;
-  padding: 20px;
+  flex-wrap: wrap;
+  padding: 30px;
   background-color: #20cc6d;
   color: #000000;
 }
 /*Header text structure*/
 .header h1 {
-  position: relative;
-  display: inline-block;
   font-size: 50px;
 }
 /*Header Navigation structure*/
 .header nav {
-  position: relative;
   padding-top: 15px;
   margin-right: 20px;
-  float: right;
   font-size: 20px;
 }
 
 .header nav ul {
+
   list-style-type: none;
 }
 
 .header nav ul li {
   display: inline-block;
-  margin-left: 100px;
-}
-
-/*Hero Structure*/
-.hero {
   
-  position: relative;
-  height: 110px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-size: cover;
-  background-position: center;
-  color: aqua;
 }
 
-.hero img {
-  height: 110px;
-  width: 100%;
-   
+.project-card {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 10px;
+  flex: 0 0 400px;
 }
 
-
-.content {
-  position: relative;
-  width: 100%;
-  display: inline-block;
-}
-
-/*Content box strucutre*/
-.content section {
-  flex-direction: row;
-  position: relative;
-  margin-bottom: 20px;
-  padding: 20px;
-  height: 250px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0b9649;
-  color: #0ed43f;
-}
-
-/*Content text structure*/
-.content h2 {
-  position: relative;
-  display: display-outside;
-  margin-bottom: 20px;
-  font-size: 36px;
-  text-align: center;
-  width: 23%;
-  float: left;
-}
-
-.content div {
-  position: relative;
-  margin-top: 20px;
-  background-color: red;
-  width: 73%;
-  float: right;
-  border: royalblue;
-  border-width: 10px;
-}
-.showcase-project img {
-  max-width: 400px;
+.project-card img {
   max-height: 200px;
-}
-
-.other-projects img {
-  max-width: 200px;
-  max-height: 100px;
-}
-
-.content nav ul{
-  list-style-type: none;
-}
-
-.content nav ul li{
-  display: inline-block;
-  margin-left: 100px;
+  max-width: 300px;
 }
