@@ -1,3 +1,8 @@
+@media only screen and (max-width: 768px) {
+  .header nav {
+    display: none;
+  }
+}
 body {
   display: flex;
   flex-direction: column;
@@ -40,6 +45,7 @@ body {
 
 #about-me p{
   padding-left: 30px;
+  
 }
 .content {
   display: flex;
@@ -47,13 +53,23 @@ body {
   flex-direction: column;
 }
 .showcase-project img {
-  max-height: 600px;
+  max-height: 1000px;
   max-width: 1000px;
 }
 
 #projects {
-  justify-content: space-between;
+  justify-content: flex-end;
 }
+#projects h2 {
+  float: left;
+}
+#projects h3 {
+  text-align: center;
+}
+ #projects p {
+   text-align: center;
+ }
+
 .project-content {
   display: flex;
   flex-wrap: wrap;
@@ -73,10 +89,21 @@ body {
 
 .project-card {
   padding: 10px;
-  flex: 0 0 400px;
+  flex: 0 0 220px;
 }
 
 .project-card img {
   max-height: 200px;
   max-width: 300px;
+}
+#contact {
+  display: flex;
+
+}
+#contact nav ul{
+  list-style-type: none;
+}
+
+#contact nav ul li {
+  display: inline-block;
 }
